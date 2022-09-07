@@ -10,7 +10,7 @@ Telegram: @karalaga
 
 ## About myself
 
-I haven't participated in any projects yet, but i want to start working in these direction as soon as posible. Now i'm third-year student. I'm really iterested in web and ai, in my opinion our present and future deeply depends on information and its perfomance.
+Now i am third-year student in The Bonch-Bruevich Saint Petersburg State University of Telecommunications. I love to code and  dance. My core strengths are hardworking and persistence. I am really interested in web and ai, in my opinion our present and future deeply depends on information and its perfomance. Unfortunately, i have not participated in any projects yet, but i want to start working in these direction as soon as posible
 
 ## Skills
 
