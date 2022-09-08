@@ -34,6 +34,7 @@ body{
     justify-content: space-around;
     align-items: center;
     color: #fdffd0;
+    padding-top: 4px;
 }
 a{
     color: #fdffd0;
