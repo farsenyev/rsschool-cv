@@ -8,17 +8,57 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <header>
-
-    </header>
-
-
-
-    <footer>
-        <a href="" id="name">Fedor Arsenev</a>
-        <a href="https://github.com/farsenyev">farsenyev</a>
-        <img src="" alt="course-logo" id="logo">
+    <div id="header"><p id="p-head">CV. HTML, CSS & Git Basics</p></div>
+    <div id="center">
+        <h1>RSSCHOOL-CV. HTML, CSS & Git Basics</h1>
+        <p>Fedor Arsenev</p>
+        <h2>Contact information</h2>
+        <ul>
+            <li>Phone: +79992488262</li>
+            <li>E-mail: farsenyev@bk.ru</li>
+            <li>Telegram: @karalaga</li>
+        </ul>
+        <h2>About myself</h2>
+        <p>Now i am third-year student in The Bonch-Bruevich Saint Petersburg State University of Telecommunications. I
+            love to code and  dance. My core strengths are hardworking and persistence. I am really interested in Web
+            and AI, in my opinion our present and future deeply depends on information and its performance.
+            Unfortunately, i have not participated in any projects yet, but i want to start working in this direction
+            as soon as posible</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+            <li>Python and R (in progress)</li>
+            <li>VScode, WebStorm</li>
+        </ul>
+        <h2>Code examples</h2>
+        <p><b><em>Kata from CodeWars (Count the smiley face!)</em></b></p>
+        <p><em>Given an array (arr) as an argument complete the function countSmileys that should return the total
+            number of smiling faces.</em></p>
+        <p><b><em>Rules for a smiling face:</em></b></p>
+        <p><em>Each smiley face must contain a valid pair of eyes. Eyes can be marked as <b>: or ;</b>. A smiley face
+            can have a nose but it does not have to. Valid characters for a nose are <b>- or ~</b>
+            Every smiling face must have a smiling mouth that should be marked with either <b>) or D</b></em></p>
+        <div id="code-border"><p id="tab1">
+            <pre id="p-code">let counter = 0<br>for (let i = 0; i < arr.length; i ++){<br>c = arr[i].split('')<br>if (c.includes((':' || ':') || ('-' || '~') || (')' || 'D'))){
+            counter ++
+            }<br>}<br>return counter
+            </pre>
+        </div>
+        <h2>Job experience</h2>
+        <p>Nothing in this sphere..</p>
+        <h2>Languages</h2>
+        <ul>
+            <li>English - B2 level</li>
+            <li>Russian - Native</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <a href="https://app.rs.school/"><img src="solidarity-Ukraine.svg" alt="course-logo" id="logo"></a>
         <div id="date">8.09.22</div>
-    </footer>
+        <a href="https://github.com/farsenyev" id="gh-name">farsenyev</a>
+        <a href="https://github.com/farsenyev" id="name">Fedor</a>
+    </div>
 </body>
 </html>
